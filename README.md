@@ -10,6 +10,9 @@ gRPC を使って外部にある処理を Rails から呼び出すサンプル
 # gRPC サーバーの立ち上げ方
 $ go run grpc-server.go
 
+# お試し実行
+$ go run client.go
+
 # Rails アプリケーションの立ち上げ方
 $ cd server
 $ bundle exec rails s
